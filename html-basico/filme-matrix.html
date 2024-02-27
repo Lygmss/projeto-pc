@@ -11,6 +11,7 @@
             /* troca a fonte padrao do site */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
         }
+
         body{
             /* defimne a largura do elemento*/
             width: 1000px;
@@ -27,15 +28,64 @@
             /* arredondar os cantos da "caixa" */
             border-radius: 30px;
         }
+
         img{
             /* largura */
             width: 360px;
             /* define margem na parte superior */
             margin-top: 20px;
-            
-
         }
 
+        th{
+            /* fundo da categoria */
+            background: #034001;
+            /* alinhamento de texto 
+            left- esquerda
+            right- direita
+            center- centralizado
+            justify- justificado */
+            text-align: left;
+            
+        }
+
+        th,td{
+            border: 1px solid #078c03;
+            /* cor da borda */
+        }
+
+        table{
+            border-collapse: collapse;
+            /* seleciona modelo de borda
+        collapse = mescla borda da tabela */
+        }
+
+        p{
+            /* justifica texto */
+            text-align: justify;
+        }
+
+        iframe{
+            width: 100%;
+            height: 500px;
+        }
+
+        a{
+            /* css do link */
+            color: #078c03;
+            text-decoration: none;
+        }
+
+        a:hover{
+            /* css do link ao passar o mouse */
+            color: #39b435;
+            border-bottom: 1px solid #39b435;
+        }
+
+        /* fundo da pagina */
+        html{
+            background: url(../img/matrix-fundo.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
 
 
     </style>
@@ -44,7 +94,7 @@
     <h1>Matrix</h1>
     <h5>Lançamento: 1999</h5>
 
-    <table border="1">
+    <table>
         <tr>
             <th>Categoria</th>
             <th>Duração</th>            
@@ -90,7 +140,7 @@
 
 
     <a href="https://www.adorocinema.com/filmes/filme-19776/creditos/" target="_blank">
-        <p>Crédito: AdoroCinema</p>
+        Crédito: AdoroCinema
     </a>
 
 
